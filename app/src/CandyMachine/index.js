@@ -357,6 +357,7 @@ const [isLoadingMints, setIsLoadingMints] = useState(false);
     return <p>{`Drop Date: ${machineStats.goLiveDateTimeString}`}</p>;
   };
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => { getCandyMachineState(); }, []);
 
   return (

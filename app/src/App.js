@@ -58,6 +58,7 @@ const App = () => {
     };
     window.addEventListener('load', onLoad);
     return () => window.removeEventListener('load', onLoad);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
