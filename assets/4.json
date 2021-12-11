@@ -1,0 +1,19 @@
+{
+    "name": "desolation",
+    "symbol": "",
+    "image": "4.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "4.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "4wwqztmty1eo2nMAxAhv2M6LwhmkVkyVYzC2YwgojMPq",
+          "share": 100
+        }
+      ]
+    }
+  }

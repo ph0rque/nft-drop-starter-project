@@ -1,0 +1,19 @@
+{
+    "name": "destruction",
+    "symbol": "",
+    "image": "3.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "3.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "4wwqztmty1eo2nMAxAhv2M6LwhmkVkyVYzC2YwgojMPq",
+          "share": 100
+        }
+      ]
+    }
+  }

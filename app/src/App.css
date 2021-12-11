@@ -8,13 +8,14 @@
 
 .container {
   height: 100%;
+  max-width: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0 30px 0 30px;
   color: white;
   position: relative;
-  /* background-color: #35aee2; */
+  margin: auto;
 }
 
 .authed-container {
@@ -65,7 +66,7 @@
 }
 
 .mint-button {
-  background: -webkit-linear-gradient(left, #4e44ce, #35aee2);
+  background: -webkit-linear-gradient(left, #8b6909, #f3dc6b);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
   margin-left: 10px;
@@ -94,7 +95,9 @@
 }
 
 .connected-container input[type='text'] {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 10px;
   width: 50%;
   height: 60px;
